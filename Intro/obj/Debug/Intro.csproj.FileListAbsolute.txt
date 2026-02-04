@@ -1,0 +1,7 @@
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\bin\Debug\Intro.exe.config
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\bin\Debug\Intro.exe
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\bin\Debug\Intro.pdb
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\obj\Debug\Intro.csproj.AssemblyReference.cache
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\obj\Debug\Intro.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\obj\Debug\Intro.exe
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\Intro\obj\Debug\Intro.pdb
