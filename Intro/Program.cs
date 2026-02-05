@@ -16,7 +16,7 @@ namespace Intro
             double decimales = 10.0;
            
             
-            Console.WriteLine("Hola mundo con C#");
+            Console.WriteLine("Cambio realizados");
             Console.WriteLine("Hola " + texto + " su numero es " + numero);
             Console.WriteLine($"Hola {texto} su numero es {numero}");
 
