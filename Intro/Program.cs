@@ -50,7 +50,7 @@ namespace Intro
             num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese el segundo numero");
             num2 = Convert.ToInt32(Console.ReadLine());
-            suma = num1 + num2;
+            suma = Suma(num1, num2);
             resta = num1 - num2;
             mult = num1 * num2;
             div = num1 / num2;
@@ -59,13 +59,13 @@ namespace Intro
             Console.WriteLine($"La multi de {num1} * {num2} es: {mult}");
             Console.WriteLine($"La div de {num1} / {num2} es: {div}");
 
-            Suma(num1, num2);
+           
         }
 
-        protected static void Suma(int num1,int num2)
+        protected static int Suma(int num1, int num2)
         {
             int resultado = num1 + num2;
-            Console.WriteLine($"El resultado es:{resultado}");
+           return resultado;
         }
     }
 }
