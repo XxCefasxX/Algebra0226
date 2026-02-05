@@ -57,7 +57,15 @@ namespace Intro
             Console.WriteLine($"La suma de {num1} + {num2} es: {suma}");
             Console.WriteLine($"La resta de {num1} - {num2} es: {resta}");
             Console.WriteLine($"La multi de {num1} * {num2} es: {mult}");
-            Console.WriteLine($"La div de {num1} / {num2} es: {div`}");
+            Console.WriteLine($"La div de {num1} / {num2} es: {div}");
+
+            Suma(num1, num2);
+        }
+
+        protected static void Suma(int num1,int num2)
+        {
+            int resultado = num1 + num2;
+            Console.WriteLine($"El resultado es:{resultado}");
         }
     }
 }
