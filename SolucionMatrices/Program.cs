@@ -6,6 +6,7 @@ for (int fila = 0; fila < lista.GetLength(0); fila++)
     {
         Console.WriteLine($"Ingrese el numero de {fila+1},{columna+1}");
         lista[fila, columna] = Convert.ToInt32(Console.ReadLine());
+        Console.Clear();
     }
 }
 
@@ -25,7 +26,7 @@ for (int fila = 0; fila < lista.GetLength(0); fila++)
 Matrices matriz = new Matrices();
 int det= matriz.Sarrus3x3(lista);
 matriz.MostrarMatriz(lista);
-Console.WriteLine(det);
+Console.WriteLine($"La determinant de la matriz es: {det}");
 class Matrices()
 {
     public void MostrarMatriz(int[,] matriz)
