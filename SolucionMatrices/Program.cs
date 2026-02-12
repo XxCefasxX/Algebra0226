@@ -1,15 +1,26 @@
 ﻿int[,] lista=new int[3,3];
-lista[0,0] = 4;
-lista[0,1] = 2;
-lista[0,2] = 3;
 
-lista[1, 0] = 1;
-lista[1, 1] = 3;
-lista[1, 2] = 4;
+for (int fila = 0; fila < lista.GetLength(0); fila++)
+{
+    for (int columna = 0; columna < lista.GetLength(1); columna++)
+    {
+        Console.WriteLine($"Ingrese el numero de {fila+1},{columna+1}");
+        lista[fila, columna] = Convert.ToInt32(Console.ReadLine());
+    }
+}
 
-lista[2, 0] = 2;
-lista[2, 1] = 1;
-lista[2, 2] = 2;
+
+//lista[0, 0] = 4;
+//lista[0,1] = 2;
+//lista[0,2] = 3;
+
+//lista[1, 0] = 1;
+//lista[1, 1] = 3;
+//lista[1, 2] = 4;
+
+//lista[2, 0] = 2;
+//lista[2, 1] = 1;
+//lista[2, 2] = 2;
 
 Matrices matriz = new Matrices();
 int det= matriz.Sarrus3x3(lista);
