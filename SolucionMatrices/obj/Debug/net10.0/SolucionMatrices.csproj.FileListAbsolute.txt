@@ -1,0 +1,15 @@
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\bin\Debug\net10.0\SolucionMatrices.exe
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\bin\Debug\net10.0\SolucionMatrices.deps.json
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\bin\Debug\net10.0\SolucionMatrices.runtimeconfig.json
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\bin\Debug\net10.0\SolucionMatrices.dll
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\bin\Debug\net10.0\SolucionMatrices.pdb
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.AssemblyInfoInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.AssemblyInfo.cs
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.sourcelink.json
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.dll
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\refint\SolucionMatrices.dll
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.pdb
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\SolucionMatrices.genruntimeconfig.cache
+C:\Users\salaz\OneDrive\Escritorio\algebra\Pogramacion\SolucionMatrices\obj\Debug\net10.0\ref\SolucionMatrices.dll

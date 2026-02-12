@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../SolucionMatrices/SolucionMatrices.csproj" Id="01bad38d-9a54-4451-80e2-a957e1bbb0c2" />
   <Project Path="Intro.csproj" Id="394c51ea-7b58-4968-959d-27ad8caf162d" />
 </Solution>
