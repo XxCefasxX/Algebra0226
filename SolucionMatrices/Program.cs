@@ -1,34 +1,52 @@
-﻿int[,] lista=new int[3,3];
+﻿int[,] matriz=new int[4,4];
+int FilaSeleccionada = 0;
+Matrices matrices = new Matrices();
 
-for (int fila = 0; fila < lista.GetLength(0); fila++)
-{
-    for (int columna = 0; columna < lista.GetLength(1); columna++)
-    {
-        Console.WriteLine($"Ingrese el numero de {fila+1},{columna+1}");
-        lista[fila, columna] = Convert.ToInt32(Console.ReadLine());
-        Console.Clear();
-    }
-}
+//for (int fila = 0; fila < matriz.GetLength(0); fila++)
+//{
+//    for (int columna = 0; columna < matriz.GetLength(1); columna++)
+//    {
+//        Console.WriteLine($"Ingrese el numero de {fila+1},{columna+1}");
+//        matriz[fila, columna] = Convert.ToInt32(Console.ReadLine());
+//        Console.Clear();
+//    }
+//}
 
+matriz = matrices.Demo();
+matrices.MostrarMatriz(matriz);
+Console.WriteLine($"Seleccione una file entre 1 - {matriz.GetLength(0)}");
+FilaSeleccionada = Convert.ToInt32(Console.ReadLine());
+matrices.Laplace(matriz, FilaSeleccionada-1);
 
-//lista[0, 0] = 4;
-//lista[0,1] = 2;
-//lista[0,2] = 3;
-
-//lista[1, 0] = 1;
-//lista[1, 1] = 3;
-//lista[1, 2] = 4;
-
-//lista[2, 0] = 2;
-//lista[2, 1] = 1;
-//lista[2, 2] = 2;
-
-Matrices matriz = new Matrices();
-int det= matriz.Sarrus3x3(lista);
-matriz.MostrarMatriz(lista);
-Console.WriteLine($"La determinant de la matriz es: {det}");
+//int det= matrices.Sarrus3x3(matriz);
+//matrices.MostrarMatriz(matriz);
+//Console.WriteLine($"La determinant de la matriz es: {det}");
 class Matrices()
 {
+    public int[,] Demo()
+    {
+        int[,] matriz = new int[4,4];
+        matriz[0, 0] = 4;
+        matriz[0, 1] = 2;
+        matriz[0, 2] = 3;
+        matriz[0, 3] = 3;
+
+        matriz[1, 0] = 1;
+        matriz[1, 1] = 3;
+        matriz[1, 2] = 4;
+        matriz[1, 3] = 4;
+
+        matriz[2, 0] = 2;
+        matriz[2, 1] = 1;
+        matriz[2, 2] = 2;
+        matriz[2, 3] = 2;
+
+        matriz[3, 0] = 5;
+        matriz[3, 1] = 2;
+        matriz[3, 2] = 1;
+        matriz[3, 3] = 3;
+        return matriz;
+    }
     public void MostrarMatriz(int[,] matriz)
     {
         for(int fila = 0; fila < matriz.GetLength(0); fila++)
@@ -72,6 +90,17 @@ class Matrices()
         for(int i = 1; i < lista.Length; i++)
         {
             resultado = resultado * lista[i];
+        }
+        return resultado;
+    }
+
+    public int Laplace(int[,] matriz,int FilaSeleccionada)
+    {
+        int resultado = 0;
+        for(int columna = 0; columna < matriz.GetLength(1); columna++)
+        {
+            int numero = matriz[FilaSeleccionada, columna];
+            Console.Write(numero+" ");
         }
         return resultado;
     }
