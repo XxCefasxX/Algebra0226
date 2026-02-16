@@ -94,13 +94,50 @@ class Matrices()
         return resultado;
     }
 
+    private int[,] obtenrSubMatriz(int[,] matriz, int fila, int columna)
+    {
+        int[,] submatriz = new int[matriz.GetLength(0) - 1, matriz.GetLength(0) - 1];
+        for (int f = 0; f < matriz.GetLength(0); f++)
+        {
+            if (f == fila)
+                break;
+            for(int c = 0; c < matriz.GetLength(1); c++)
+            {
+                if (c == columna)
+                    break;
+                submatriz[f,c]=matriz[f,c];
+            }
+        }
+        return submatriz;
+    }
+
     public int Laplace(int[,] matriz,int FilaSeleccionada)
     {
         int resultado = 0;
         for(int columna = 0; columna < matriz.GetLength(1); columna++)
         {
             int numero = matriz[FilaSeleccionada, columna];
-            Console.Write(numero+" ");
+            int[,] submatriz = new int[matriz.Length-1,matriz.Length-1];
+            submatriz = obtenrSubMatriz(matriz, FilaSeleccionada, columna);
+            int columnaSeleccionada = 0;
+           
+
+            int menorComplementario = Sarrus3x3(submatriz);
+            int aux = (FilaSeleccionada + 1) + (columna + 1);
+            int signo = 0;
+            if (aux % 2 == 0)
+            {
+                signo = 1;
+            }
+            else
+            {
+                signo = -1;
+            }
+            int adjunto = menorComplementario * signo;
+
+            resultado += numero * adjunto;
+
+            Console.Write(numero + " ");
         }
         return resultado;
     }
