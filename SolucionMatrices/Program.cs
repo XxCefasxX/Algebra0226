@@ -100,11 +100,11 @@ class Matrices()
         for (int f = 0; f < matriz.GetLength(0); f++)
         {
             if (f == fila)
-                break;
+                continue;
             for(int c = 0; c < matriz.GetLength(1); c++)
             {
                 if (c == columna)
-                    break;
+                    continue;
                 submatriz[f,c]=matriz[f,c];
             }
         }
