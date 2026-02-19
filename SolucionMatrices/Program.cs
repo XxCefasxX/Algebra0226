@@ -1,4 +1,6 @@
-﻿//int[,] matriz=new int[4,4];
+﻿//using SolucionMatrices;
+
+//int[,] matriz=new int[4,4];
 //int FilaSeleccionada = 0;
 //Matrices matrices = new Matrices();
 
@@ -11,6 +13,10 @@
 ////        Console.Clear();
 ////    }
 ////}
+
+////llamando clase de prueba
+//Test t = new Test();
+//t.otrometodo();
 
 //matriz = matrices.Demo();
 //matrices.MostrarMatriz(matriz);
@@ -126,11 +132,19 @@
 //        {
 //            int numero = matriz[FilaSeleccionada, columna];
 //            int[,] submatriz = new int[matriz.Length-1,matriz.Length-1];
-//            submatriz = obtenrSubMatriz(matriz, FilaSeleccionada, columna);
            
+//            submatriz = obtenrSubMatriz(matriz, FilaSeleccionada, columna);
 
-//            int menorComplementario = Sarrus3x3(submatriz);
-//            int aux = (FilaSeleccionada + 1) + (columna + 1);
+//            int menorComplementario = 0;
+//            if (submatriz.Length > 3)
+//            {
+//                menorComplementario = Laplace(submatriz, 2);
+//            }
+//            else {
+//                menorComplementario = Sarrus3x3(submatriz);
+//            }
+
+//                int aux = (FilaSeleccionada + 1) + (columna + 1);
 //            int signo = 0;
 //            if (aux % 2 == 0)
 //            {
