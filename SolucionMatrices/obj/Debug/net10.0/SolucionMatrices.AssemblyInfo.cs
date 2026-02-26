@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolucionMatrices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8912a269e64e8135973c93adf3e8787b718ea326")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3673457ed9dc68038f3239be5a8b3127b84c8d85")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolucionMatrices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolucionMatrices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
